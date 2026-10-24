@@ -2,7 +2,8 @@
  * SEC EDGAR API client with rate limiting (10 req/s).
  */
 
-const USER_AGENT = "SkywalkerAgent chris.sellers01@gmail.com";
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "amw-dogfood@agentmail.to";
+const USER_AGENT = `SkywalkerAgent ${CONTACT_EMAIL}`;
 const RATE_LIMIT_MS = 100; // 10 req/s
 
 let lastRequestTime = 0;

@@ -48,3 +48,9 @@ npx mcp-sec-edgar
 ## License
 
 MIT
+
+## Environment variables
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `CONTACT_EMAIL` | `amw-dogfood@agentmail.to` | Contact address sent to the upstream API. SEC EDGAR requires a User-Agent that includes a contact email address. Set it to an address you monitor. |

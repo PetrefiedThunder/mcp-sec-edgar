@@ -47,7 +47,7 @@ npx mcp-sec-edgar
 
 ## License
 
-MIT
+Apache-2.0
 
 ## Environment variables
 
